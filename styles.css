@@ -23,16 +23,21 @@ li {
   box-shadow: 5px 2px 2px grey;
   background-color: grey;
 }
+.section-links-container li:hover {
+  box-shadow: 5px 2px 2px yellow;
+}
 a {
   text-decoration: none;
   color: yellow;
 }
 .container {
   border: 1px solid white;
-  height: 100vh;
+  height: 100%;
   width: 60%;
   background-color: black;
   color: white;
+  position: absolute;
+  z-index: 0;
 }
 .section {
   border: 1px solid white;
@@ -40,9 +45,7 @@ a {
   margin-top: 2rem;
   border-radius: 1rem;
 }
-.section-one {
-  box-shadow: 10px 5px 5px grey;
-}
+
 .section-two {
   border-bottom: none;
   margin-bottom: -1.2rem;
@@ -59,13 +62,15 @@ a {
   color: yellow;
 }
 .two {
-  margin-bottom: 1rem;
+  margin: 1rem;
 }
 .footer {
-  width: 100%;
+  width: 59%;
   position: fixed;
-  border-top: 1px solid white;
+  /* border-top: 1px solid white; */
   display: flex;
+  z-index: 1;
+  background-color: black;
 }
 .links-footer-container {
   display: flex;
