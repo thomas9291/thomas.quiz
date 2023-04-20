@@ -64,25 +64,8 @@ a:hover {
   justify-content: space-around;
 }
 
-.section-two {
-  margin-bottom: -1.2rem;
-}
-.btn {
-  padding: 0.5rem 1rem;
-  background-color: rgb(89, 210, 80);
-  box-shadow: 10px 5px 5px grey;
-  border-radius: 1rem;
-  color: white;
-}
-.btn:hover {
-  box-shadow: 10px 5px 5px rgb(243, 235, 11);
-  color: yellow;
-}
-.btn:active {
-  transform: scale(1.2);
-}
 .two {
-  margin-bottom: 7rem;
+  margin: 1rem;
 }
 .footer {
   width: 100%;
@@ -91,9 +74,8 @@ a:hover {
   border-top: 1px solid white;
   display: flex;
   z-index: 1;
-  background-color: black;
+  /*  background-color: black; */
   height: 5rem;
-  width: 60%;
 }
 .links-footer-container {
   display: flex;
@@ -106,7 +88,7 @@ svg {
 h2 {
   padding: 1rem;
 }
-.home {
+.profil {
   background-color: aliceblue;
   padding: 0.5rem;
 }
@@ -125,4 +107,40 @@ h2 {
   position: absolute;
   right: 2em;
   top: 6rem;
+}
+.main-svg {
+  position: absolute;
+  top: 9rem;
+  left: 3rem;
+}
+h2 {
+  margin-top: 4rem;
+  margin-left: 3rem;
+  color: yellow;
+}
+.section-container-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-two {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+p {
+  padding: 1rem;
+  text-align: center;
+}
+.cart-container {
+  display: flex;
+}
+.figure {
+  border: 1px solid white;
+  padding: 1rem;
+  border-radius: 1rem;
+  display: flex;
+}
+.figure-one-nummer {
+  margin-left: 1rem;
 }
