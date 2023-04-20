@@ -82,7 +82,7 @@ a:hover {
   transform: scale(1.2);
 }
 .two {
-  margin-bottom: 7rem;
+  margin: 1rem;
 }
 .footer {
   width: 100%;
@@ -91,9 +91,8 @@ a:hover {
   border-top: 1px solid white;
   display: flex;
   z-index: 1;
-  background-color: black;
+  /*  background-color: black; */
   height: 5rem;
-  width: 60%;
 }
 .links-footer-container {
   display: flex;
@@ -106,7 +105,7 @@ svg {
 h2 {
   padding: 1rem;
 }
-.home {
+.bookmark {
   background-color: aliceblue;
   padding: 0.5rem;
 }
