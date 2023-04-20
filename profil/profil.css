@@ -51,6 +51,8 @@ a:hover {
   background-color: black;
   color: white;
   position: absolute;
+  padding: 0.5rem;
+  text-align: center;
 }
 .section {
   border: 1px solid white;
@@ -85,9 +87,6 @@ svg {
   background-color: white;
 }
 
-h2 {
-  padding: 1rem;
-}
 .profil {
   background-color: aliceblue;
   padding: 0.5rem;
@@ -134,13 +133,23 @@ p {
 }
 .cart-container {
   display: flex;
+  line-height: 1.5;
 }
 .figure {
   border: 1px solid white;
-  padding: 1rem;
-  border-radius: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
   display: flex;
 }
 .figure-one-nummer {
   margin-left: 1rem;
+}
+h3 {
+  text-align: start;
+  margin-left: 1rem;
+}
+.dark-mode-toggle {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
