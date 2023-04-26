@@ -6,16 +6,43 @@ body {
   display: flex;
   justify-content: center;
 }
-.container {
-  border: 1px solid white;
-  height: 100%;
-  width: 60%;
+header {
   background-color: black;
-  color: white;
-  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.container {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-color: black;
+  width: 35%;
+}
+main {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+.footer {
+  display: grid;
+  bottom: 0;
+  /* border-top: 1px solid white; */
+  /*   z-index: 1; */
+  background-color: black;
+  grid-template-columns: repeat(3, 1fr);
+  position: sticky;
+  bottom: 0;
 }
 .section {
   border: 1px solid white;
+  width: 90%;
   margin: 1rem;
   margin-top: 2rem;
   border-radius: 1rem;
@@ -26,6 +53,8 @@ body {
   justify-content: space-around;
   background-color: white;
   color: black;
+  box-shadow: 5px 5px 5px grey;
+  position: relative;
 }
 h1 {
   color: yellow;
@@ -81,16 +110,7 @@ a {
 .two {
   margin: 1rem;
 }
-.footer {
-  width: 100%;
-  position: fixed;
-  bottom: 0;
-  border-top: 1px solid white;
-  display: flex;
-  z-index: 1;
-  /*  background-color: black; */
-  height: 5rem;
-}
+
 .links-footer-container {
   display: flex;
 }
@@ -115,7 +135,8 @@ h2 {
 }
 .svg-two {
   position: absolute;
-  right: 2em;
+  right: 1rem;
+  top: 0;
 }
 .svg-one {
   position: absolute;
