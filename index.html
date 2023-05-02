@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <script src="./markbook-icons-toggle/toggle.js" defer></script>
     <title>quiz app</title>
   </head>
   <body>
@@ -13,21 +14,23 @@
       <hr />
       <main>
         <section class="section section-one">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            height="48"
-            viewBox="0 96 960 960"
-            width="48"
-          >
-            <path
-              d="M200 936V271q0-24 18-42t42-18h440q24 0 42 18t18 42v665L480 816 200 936Zm60-91 220-93 220 93V271H260v574Zm0-574h440-440Z"
-            />
-          </svg>
-          <h2>what property flips the axes in flexbox?</h2>
-          <div class="btn one">
-            <a href="./answer/answer.html">Show Answer</a>
+          <div class="icons">
+            <svg
+              class="toggle-icon-white"
+              xmlns="http://www.w3.org/2000/svg"
+              height="48"
+              viewBox="0 96 960 960"
+              width="48"
+            >
+              <path
+                d="M200 936V271q0-24 18-42t42-18h440q24 0 42 18t18 42v665L480 816 200 936Z"
+              />
+            </svg>
           </div>
 
+          <h2>what property flips the axes in flexbox?</h2>
+          <button class="btn one">Show Answer</button>
+          <p class="answert"></p>
           <ul class="section-links-container">
             <li><a href="">#html</a></li>
             <li><a href="">#flexbox</a></li>
@@ -36,21 +39,22 @@
         </section>
 
         <section class="section section-two">
-          <svg
-            class="svg-two"
-            xmlns="http://www.w3.org/2000/svg"
-            height="48"
-            viewBox="0 96 960 960"
-            width="48"
-          >
-            <path
-              d="M200 936V271q0-24 18-42t42-18h440q24 0 42 18t18 42v665L480 816 200 936Z"
-            />
-          </svg>
-          <h2>Lorem Ipsum dolor sit?</h2>
-          <div class="btn two">
-            <a href="./answer/answer.html">Show Answer</a>
+          <div class="icons-two">
+            <svg
+              class="svg-two"
+              xmlns="http://www.w3.org/2000/svg"
+              height="48"
+              viewBox="0 96 960 960"
+              width="48"
+            >
+              <path
+                d="M200 936V271q0-24 18-42t42-18h440q24 0 42 18t18 42v665L480 816 200 936Z"
+              />
+            </svg>
           </div>
+
+          <h2>Lorem Ipsum dolor sit?</h2>
+          <button class="btn two">Show Answer</button>
           <ul class="section-links-container">
             <li><a href="">#html</a></li>
             <li><a href="">#flexbox</a></li>
@@ -71,9 +75,7 @@
             />
           </svg>
           <h2>what property flips the axes in flexbox?</h2>
-          <div class="btn one">
-            <a href="./answer/answer.html">Show Answer</a>
-          </div>
+          <button class="btn tree">Show Answer</button>
 
           <ul class="section-links-container">
             <li><a href="">#html</a></li>
@@ -108,6 +110,20 @@
                 d="M200 936V271q0-24 18-42t42-18h440q24 0 42 18t18 42v665L480 816 200 936Z"
               /></svg
           ></a>
+        </figure>
+        <figure class="add">
+          <a href="./form/form.html">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="48"
+              viewBox="0 96 960 960"
+              width="48"
+            >
+              <path
+                d="M180 936q-24 0-42-18t-18-42V276q0-24 18-42t42-18h394v60H180v600h600V482h60v394q0 24-18 42t-42 18H180Zm141-157v-60h319v60H321Zm0-127v-60h319v60H321Zm0-127v-60h319v60H321Zm371-73v-88h-88v-60h88v-88h60v88h88v60h-88v88h-60Z"
+              />
+            </svg>
+          </a>
         </figure>
         <figure class="profil">
           <a href="./profil/profil.html"
